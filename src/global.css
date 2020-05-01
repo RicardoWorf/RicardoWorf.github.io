@@ -1,0 +1,27 @@
+@font-face {font-family:"rezland";
+	src: url("../fonts/rezland/rezlandFont.ttf");
+}
+
+@font-face {font-family:"lemon-milk";
+	src: url("../fonts/lemon-milk/lemonmilk-medium.otf");
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:sans-serif;
+	letter-spacing:0.1em;
+
+}
+
+body {
+	width:100%;
+	background-image:url('../assets/background-all.png');
+	background-size:100% auto;
+	--webkit-font-smoothing:antialiased;
+	display:flex;
+	justify-content:center;
+	height:100vh;
+}
