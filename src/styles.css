@@ -1,42 +1,142 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family:sans-serif;
-}
-
-body {
-	background:#f1f1f1;
-	--webkit-font-smoothing:antialiased;
-}
-
-header {
+/*Section My Info*/
+section {
 	width:100%;
+	max-width:1000px;	
+	margin:0 auto;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	cursor:default;
 	
-	background:#AAAAAA;
-	padding:20px 20px;
-	box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+/* Section My Info */
+
+/*========================================*/
+
+/* My Image */
+section img {
+	
+	border-radius:48% 52% 34% 66% / 45% 55% 45% 55% ;
+	transform:scale(1.1);
+	transition:all 0.7s;
 }
 
-header nav {
+section img:hover {
+	
+	filter:brightness(1);
+}
+/* My Image */
+
+/*========================================*/
+
+/* My Informations*/
+section .my-info {
+	color:#F6F6F6;
+	font-family: lemon-milk;
+}
+
+section .my-info h1 {
+	font-size:30px;
+	margin-bottom:10px;
+	letter-spacing:0.1em;
+	font-family: lemon-milk, sans-serif;
+	transition:all 0.2s;
+	cursor:default;
+}
+
+section .my-info h1:hover {
+	text-shadow:5px 5px #0f0f0f;
+	transform:translateX(10px);
+}
+/* My Informations*/
+
+/*========================================*/
+
+/* My name */
+section .my-info #my-name {
+	color:#FF8080;
+	font-size:25px;
+	font-family: lemon-milk, sans-serif;
+	margin-bottom:20px;
+	transition: 0.2s;
+}
+
+section .my-info #my-name:hover {
+	text-shadow:5px 5px #0f0f0f;
+	transform:translateX(10px);
+}
+/* My name */
+
+/*========================================*/
+
+/* My Portfolio socials */
+section .my-info .info-group .social {
 	display:flex;
 	justify-content:space-between;
+	margin-bottom:10px;
 }
 
-header nav ul {
-	display:flex;
-	justify-content:center;
-	list-style-type:none;
+section .my-info .info-group .social a {
+	color:#F6F6F6;
+	text-decoration:none;
 }
 
-header nav ul li {
-	margin:0 20px;
-	font-weight:bold;
-	font-size:20px;
+section .my-info .info-group .social p {
+	font-size:30px;
+	font-family: rezland, sans-serif;
+	margin-bottom:10px;
+	transition:0.1s;
 	cursor:pointer;
+	display:flex;
+	align-items:flex-end;
 }
 
-header nav ul li:hover {
-	color:#1f1f1f;
-
+section .my-info .info-group .social p:hover {
+	color:#CBCBCB;
+	transform:scale(1.1);
 }
+
+section .my-info .info-group .social p svg{
+	margin-right:5px;
+	font-size:50px;
+}
+/* My Portfolio socials */
+
+/*========================================*/
+
+/* My Stack */
+section .my-info .info-group .stack p,
+section .my-info .info-group .stack span {
+	font-family: lemon-milk, sans-serif;
+	margin-bottom:10px;
+}
+
+section .my-info .info-group .stack p{
+	font-size:20px;
+	color:#B5B5B5;	
+}
+
+.info-group .stack p span{
+	color:#fff;
+	font-size:24px;
+	transition:0.2s;
+}
+
+.info-group .stack p #js:hover {
+	color:#F7DF1E;
+}
+
+
+.info-group .stack p #reactjs:hover {
+	color:#00DCFF;
+}
+
+
+.info-group .stack p #nodejs:hover {
+	color:#67BC4A;
+}
+/* My Stack */
+
+
+
+
