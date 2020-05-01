@@ -15,7 +15,6 @@ section {
 
 /* My Image */
 section img {
-	
 	border-radius:48% 52% 34% 66% / 45% 55% 45% 55% ;
 	transition:all 0.7s;
 	filter:brightness(0.8);
