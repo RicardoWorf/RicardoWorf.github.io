@@ -17,12 +17,12 @@ section {
 section img {
 	
 	border-radius:48% 52% 34% 66% / 45% 55% 45% 55% ;
-	transform:scale(1.1);
 	transition:all 0.7s;
+	filter:brightness(0.8);
 }
 
 section img:hover {
-	
+	transform:scale(1.1);
 	filter:brightness(1);
 }
 /* My Image */
