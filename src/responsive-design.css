@@ -4,12 +4,12 @@
 	}
 
 	section {
-		margin-top:20px;
+		margin-top:10px;
 		flex-direction:column;
 	}
 
 	section img {
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 }
 
