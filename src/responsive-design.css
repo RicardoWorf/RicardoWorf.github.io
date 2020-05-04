@@ -4,16 +4,19 @@
 	}
 
 	section {
-		margin-top:10px;
 		flex-direction:column;
 	}
 
 	section img {
-		margin-bottom: 10px;
+	
 	}
 }
 
 @media ( max-width:590px ) {
+	section { padding:0 10px; }
+
+	section .box { height: 300px;}
+
 	section .my-info h1 { font-size:20px; }	
 
 	section .my-info #my-name { font-size:18px; }
@@ -25,20 +28,4 @@
 	section .my-info .info-group .stack p { font-size:13px }
 
 	section .my-info .info-group .stack p span{ font-size:17px }
-}
-
-
-@media (max-width: 500px; ) {
-
-	section { padding:0 10px; }
-
-	section .my-info h1 { font-size:20px; }
-
-	section .my-info #my-name { font-size:20px; }
-
-	section .my-info .info-group .social p { font-size:20px; }
-
-	section .my-info .info-group .social p svg { font-size:40px; }
-
-	section .my-info .info-group .stack p { font-size:20px }
 }
