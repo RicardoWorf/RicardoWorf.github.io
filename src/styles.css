@@ -1,3 +1,6 @@
+body {
+	overflow: hidden;
+}
 /*Section My Info*/
 section {
 	width:100%;
@@ -7,17 +10,37 @@ section {
 	justify-content:space-around;
 	align-items:center;
 	cursor:default;
-	
 }
 /* Section My Info */
 
 /*========================================*/
 
 /* My Image */
-section img {
-	border-radius:48% 52% 34% 66% / 45% 55% 45% 55% ;
+section .box {
+	width:7000px;
+	height:350px;
+	background-image:url('../assets/ocean-black.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	filter:brightness(0.3);
+	box-shadow:0 0 100px rgba(0,0,0,1);
+	transform:rotate(30deg);
+	position:absolute;
+	z-index:-1;
+}
+
+
+@keyframes rotate {
+	from { transform:rotate(0); }
+
+ 	to  {transform:rotate(360deg);}
+}
+
+section  img {
+	border-radius: 47% 53% 48% 52% / 51% 49% 51% 49% ;
 	transition:all 0.7s;
 	filter:brightness(0.8);
+	position:relative;
 }
 
 section img:hover {
@@ -32,6 +55,7 @@ section img:hover {
 section .my-info {
 	color:#F6F6F6;
 	font-family: lemon-milk;
+
 }
 
 section .my-info h1 {
