@@ -15,8 +15,6 @@
 @media ( max-width:590px ) {
 	section { padding:0 10px;  overflow:hidden;}
 
-	section .box { height: 300px; width: 100%;}
-
 	section .my-info h1 { font-size:20px; }	
 
 	section .my-info #my-name { font-size:18px; }
