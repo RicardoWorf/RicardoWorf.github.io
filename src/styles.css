@@ -100,7 +100,7 @@ section .my-info .info-group .social p:hover {
 	transform:scale(1.1);
 }
 
-section .my-info .info-group .social p svg{
+section .my-info .info-group .social p svg {
 	margin-right:5px;
 	font-size:50px;
 }
@@ -115,12 +115,12 @@ section .my-info .info-group .stack span {
 	margin-bottom:10px;
 }
 
-section .my-info .info-group .stack p{
+section .my-info .info-group .stack p {
 	font-size:20px;
 	color:#B5B5B5;	
 }
 
-.info-group .stack p span{
+.info-group .stack p span {
 	color:#fff;
 	font-size:24px;
 	transition:0.2s;
