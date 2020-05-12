@@ -82,6 +82,7 @@ section .my-info .info-group .social {
 section .my-info .info-group .social a {
 	color:#F6F6F6;
 	text-decoration:none;
+    margin: 0px 3px;
 }
 
 section .my-info .info-group .social p {
